@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container text-center sticky-"top >
+        <div class="row align-items-start p-3 maintop">
+            <div class="col">
+                <h1>Color Flipper</h1>
+            </div>
+            <div class="col">
+                <button class="btn btn-warning mt-2 me-3" onclick="haxOff()">Simple</button>
+                <button class="btn btn-success mt-2" onclick="haxOn()">Hax</button>
+            </div>
+        </div>
+        <div class="row pt-3 pb-3 centered" style="margin:15%; background-color: antiquewhite;">
+            <h2>Background Color: <span id="colorName">#198615186</span> </h2>
+            <button id="clickMe" class="btn btn-danger" onclick="onClick()">Click me</button>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

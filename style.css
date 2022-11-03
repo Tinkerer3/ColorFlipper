@@ -1,0 +1,17 @@
+.centered {
+    border-radius: 25px;
+}
+
+.maintop {
+    background: rgb(231, 189, 189);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+#clickMe {
+    background-color:rgb(56, 66, 3);
+    border: 0cm;
+    width:20%;
+    margin-top: 10px;
+    margin-left: 40% ;
+}
