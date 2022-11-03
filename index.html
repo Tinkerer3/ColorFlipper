@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Color Flipper</title>
+    <title>Bootstrap demo</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container text-center sticky-"top >
+    <div class="container text-center">
         <div class="row align-items-start p-3 maintop">
             <div class="col">
                 <h1>Color Flipper</h1>
@@ -18,10 +18,17 @@
                 <button class="btn btn-success mt-2" onclick="haxOn()">Hax</button>
             </div>
         </div>
-        <div class="row pt-3 pb-3 centered" style="margin:15%; background-color: antiquewhite;">
+        <div class="row pt-3 pb-3 centered" style="margin:10%;margin-bottom: 0%; background-color: antiquewhite;">
             <h2>Background Color: <span id="colorName">#FFFFFF</span> </h2>
-            <button id="clickMe" class="btn btn-danger" onclick="onClick()">Click me</button>
+            <button id="clickMe" class="btn btn-danger" onclick="onClick()">Click me - Random</button>
         </div>
+        <div class="row pt-3 pb-3 centered" style="margin:400px;margin-top: 5%; background-color: antiquewhite;">
+          <div class="input-group mb-3 mt-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Enter A Color Code: </span>
+            <input id="text-input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <button id="clickMee" class="btn btn-danger" onclick="onClickInput()">Click me</button>
+          </div>
+      </div>
     </div>
     </div>
     <script src="script.js"></script> 
